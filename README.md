@@ -1,4 +1,9 @@
+```shell
+rake docker:clean
+rake db:create
+rake service:all
 ```
+```text
 lixy@zypc1:~/src/github.com/rubykube/microkube$ rake -T
 rake db:console                       # Database Console
 rake db:create                        # Create database
